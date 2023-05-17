@@ -1,0 +1,41 @@
+
+*{
+      padding: 0%;
+      margin: 0%;
+      text-decoration: none;
+}
+.nav{
+      /* border: 1px solid red; */
+      display: flex;
+      width: 65vw;
+      text-decoration: none;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+}
+
+.nav1Div{
+      /* border: 1px solid; */
+      display: flex;
+      width: 30vw;
+      font-weight: 600;
+      gap: 50px;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.inputDiv{
+      border: 1px solid;
+      display: flex;
+      align-items: center;
+      padding:0px 15px;
+      border-radius: 5px;
+}
+
+.navInput{
+      width:200px;
+      height: 35px;
+      font-size: medium;
+      border: none;
+      outline: none;
+}
