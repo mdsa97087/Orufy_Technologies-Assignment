@@ -1,0 +1,10 @@
+
+
+.DataPartDiv{
+      /* border: 2px solid red; */
+      width: 100%;
+}
+#sortBy{
+      float: right;
+      font-size: medium;
+}
