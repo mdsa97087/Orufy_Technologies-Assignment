@@ -32,7 +32,7 @@ function SidePart() {
         <br />
         <input type="checkbox" /> <span>Empty</span>
       </div>
-<br />
+      <br />
       <div>
         <p className="sidePartPtag">Category</p>
         <input type="checkbox" /> <span>Number A</span>

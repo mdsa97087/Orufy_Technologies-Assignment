@@ -1,17 +1,15 @@
 {
-  "clothing": [
+  "Decoration": [
     {
       "id": 1,
       "title": "Vases",
       "subtitle": "Decoration",
       "category": "Number A",
       "brand": "Miracle",
-      "discounted_price": "679",
-      "strike_price": "3998",
-      "discount": "(83% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Decor_1440_category_17feb_19.jpg"
-      ],
+      "discounted_price": "11.5",
+      "strike_price": "158",
+      "discount": "83% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Decor_1440_category_17feb_19.jpg",
       "rating": "4.4",
       "rating_count": "5"
     },
@@ -21,12 +19,10 @@
       "subtitle": "Decoration",
       "category": "Number A",
       "brand": "Miracle",
-      "discounted_price": "799",
-      "strike_price": "4995",
-      "discount": "(84% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Decor_1440_category_17feb_24.jpg"
-      ],
+      "discounted_price": "29",
+      "strike_price": "500",
+      "discount": "84% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Decor_1440_category_17feb_24.jpg",
       "rating": "4.1",
       "rating_count": "1.5k"
     },
@@ -36,12 +32,10 @@
       "subtitle": "Decoration",
       "category": "Brand 2",
       "brand": "Number A",
-      "discounted_price": "989",
-      "strike_price": "2999",
-      "discount": "(67% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Decor_1440_category_17feb_26.jpg"
-      ],
+      "discounted_price": "19",
+      "strike_price": "699",
+      "discount": "67% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Decor_1440_category_17feb_26.jpg",
       "rating": "4.3",
       "rating_count": "1.1k"
     },
@@ -51,13 +45,10 @@
       "subtitle": "Decoration",
       "category": "Brand 2",
       "brand": "Number A",
-      "discounted_price": "681",
-      "strike_price": "2199",
-      "discount": "(69% OFF)",
-      "images": [
-        "https://ii3.pepperfry.com/assets/c57ef4_1676636686200_Decor_1280_BestSeller_17feb_6.jpg"
-      ],
-
+      "discounted_price": "5.5",
+      "strike_price": "799",
+      "discount": "69% OFF",
+      "images": "https://ii3.pepperfry.com/assets/c57ef4_1676636686200_Decor_1280_BestSeller_17feb_6.jpg",
       "rating": "4.5",
       "rating_count": "31"
     },
@@ -67,13 +58,10 @@
       "subtitle": "Decoration",
       "category": "Brand C",
       "brand": "Brand 2",
-      "discounted_price": "808",
-      "strike_price": "2994",
-      "discount": "(73% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Kitchen&dining_1440_category_16feb_5.jpg"
-      ],
-
+      "discounted_price": "8.8",
+      "strike_price": "299",
+      "discount": "73% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Kitchen&dining_1440_category_16feb_5.jpg",
       "rating": "4.2",
       "rating_count": "165"
     },
@@ -83,12 +71,10 @@
       "subtitle": "Decoration",
       "category": "Brand C",
       "brand": "Brand 2",
-      "discounted_price": "1099",
+      "discounted_price": "99",
       "strike_price": "1999",
-      "discount": "(45% OFF)",
-      "images": [
-        "https://ii2.pepperfry.com/assets/c67a50_1676543149580_kitchen%26dining_1280_bestseller_16feb_1.jpg"
-      ],
+      "discount": "45% OFF",
+      "images": "https://ii2.pepperfry.com/assets/c67a50_1676543149580_kitchen%26dining_1280_bestseller_16feb_1.jpg",
       "rating": "3.5",
       "rating_count": "41"
     },
@@ -98,12 +84,10 @@
       "subtitle": "Decoration",
       "category": "Number A",
       "brand": "Miracle",
-      "discounted_price": "569",
+      "discounted_price": "1.9",
       "strike_price": "949",
-      "discount": "(40% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Lamps_and_lighting_1440_category_15feb_1.jpg"
-      ],
+      "discount": "40% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Lamps_and_lighting_1440_category_15feb_1.jpg",
       "rating": "4.3",
       "rating_count": "27"
     },
@@ -113,13 +97,10 @@
       "subtitle": "Decoration",
       "category": "Miracle",
       "brand": "Brand C",
-      "discounted_price": "601",
+      "discounted_price": "5.1",
       "strike_price": "1399",
-      "discount": "(57% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Lamps_and_lighting_1440_category_15feb_10.jpg"
-      ],
-
+      "discount": "57% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Lamps_and_lighting_1440_category_15feb_10.jpg",
       "rating": "4.2",
       "rating_count": "2.3k"
     },
@@ -130,12 +111,9 @@
       "category": "Miracle",
       "brand": "Brand C",
       "discounted_price": "636",
-      "strike_price": "1249",
-      "discount": "(49% OFF)",
-      "images": [
-        "https://ii1.pepperfry.com/media/wysiwyg/banners/Hu_category_04april2023_1440_7.jpg"
-      ],
-
+      "strike_price": "849",
+      "discount": "49% OFF",
+      "images": "https://ii1.pepperfry.com/media/wysiwyg/banners/Hu_category_04april2023_1440_7.jpg",
       "rating": "4.3",
       "rating_count": "286"
     },
@@ -145,12 +123,10 @@
       "subtitle": "Decoration",
       "category": "Miracle",
       "brand": "Brand C",
-      "discounted_price": "621",
-      "strike_price": "1479",
-      "discount": "(58% OFF)",
-      "images": [
-        "https://ii3.pepperfry.com/assets/57d834cf-1e79-4429-9275-90bf1656abc2.jpg"
-      ],
+      "discounted_price": "61",
+      "strike_price": "279",
+      "discount": "58% OFF",
+      "images": "https://ii3.pepperfry.com/assets/57d834cf-1e79-4429-9275-90bf1656abc2.jpg",
       "rating": "4",
       "rating_count": "683"
     },
@@ -160,13 +136,10 @@
       "subtitle": "Decoration",
       "category": "Brand C",
       "brand": "Number A",
-      "discounted_price": "799",
-      "strike_price": "1999",
-      "discount": "(60% OFF)",
-      "images": [
-        "https://ii3.pepperfry.com/assets/0e5b4717-3d69-413e-b13a-6afcde462248.jpg"
-      ],
-
+      "discounted_price": "39",
+      "strike_price": "79",
+      "discount": "60% OFF",
+      "images": "https://ii3.pepperfry.com/assets/0e5b4717-3d69-413e-b13a-6afcde462248.jpg",
       "rating": "3.9",
       "rating_count": "204"
     }

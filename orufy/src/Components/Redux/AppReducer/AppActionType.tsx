@@ -1,0 +1,3 @@
+
+export const FILTER_BY_SEARCH="FILTER_BY_SEARCH";
+export const FILTER_BY_SORT="FILTER_BY_SORT"
