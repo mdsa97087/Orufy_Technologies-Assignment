@@ -48,7 +48,7 @@ const AppReducer = (state = initState, action: any) => {
     case "SORT_BY_PRICE":
       return {
         ...state,
-        sort: action.payload,
+        sort: payload,
       };
 
     //          ```````````  FILTER BY BRAND  AND CATEGORY   ```````````
@@ -56,18 +56,18 @@ const AppReducer = (state = initState, action: any) => {
     case "FILTER_BRAND":
       return {
         ...state,
-        brand: action.payload,
+        brand: payload,
       };
 
     case "FILTER_CATEGORY":
       return {
         ...state,
-        category: action.payload,
+        category: payload,
       };
     case "FILTER_PRICE":
       return {
         ...state,
-        price: action.payload,
+        price: payload,
       };
 
     default: {

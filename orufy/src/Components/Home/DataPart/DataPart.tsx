@@ -69,7 +69,8 @@ function DataPart() {
     if (brand === "Empty") {
       return sortedProducts;
     }
-    //      ``````````````  category `      ````````
+
+    //  ``````````````  category `      ````````
 
     if (category === "Number A") {
       return product.category === "Number A";
@@ -86,16 +87,22 @@ function DataPart() {
     if (category === "Empty") {
       return sortedProducts;
     }
+
     // `````````````    price    ``````````
-    else if (price === "under100") {
+
+    if (price === "under100") {
       return product.strike_price < 100;
-    } else if (price === "100to199") {
+    }
+    if (price === "100to199") {
       return product.strike_price >= 100 && product.strike_price <= 199;
-    } else if (price === "200to599") {
+    }
+    if (price === "200to599") {
       return product.strike_price >= 200 && product.strike_price <= 599;
-    } else if (price === "600to999") {
+    }
+    if (price === "600to999") {
       return product.strike_price >= 600 && product.strike_price <= 999;
-    } else if (price === "above1000") {
+    }
+    if (price === "above1000") {
       return product.strike_price > 1000;
     } else {
       return sortedProducts;

@@ -52,7 +52,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Number A"}
-          name="Number A"
           onChange={handleFilterBrand}
           checked={brand == "Number A" ? true : false}
         />{" "}
@@ -61,7 +60,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Brand 2"}
-          name="Brand 2"
           onChange={handleFilterBrand}
           checked={brand == "Brand 2" ? true : false}
         />{" "}
@@ -70,7 +68,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Brand C"}
-          name="Brand C"
           onChange={handleFilterBrand}
           checked={brand == "Brand C" ? true : false}
         />{" "}
@@ -79,7 +76,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Miracle"}
-          name="Miracle"
           onChange={handleFilterBrand}
           checked={brand == "Miracle" ? true : false}
         />{" "}
@@ -88,7 +84,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Empty"}
-          name="Empty"
           onChange={handleFilterBrand}
           checked={brand == "Empty" ? true : false}
         />{" "}
@@ -102,7 +97,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Number A"}
-          name="Number A"
           onChange={handleFilterCategory}
           checked={category == "Number A" ? true : false}
         />{" "}
@@ -111,7 +105,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Brand 2"}
-          name="Brand 2"
           onChange={handleFilterCategory}
           checked={category == "Brand 2" ? true : false}
         />{" "}
@@ -120,7 +113,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Brand C"}
-          name="Brand C"
           onChange={handleFilterCategory}
           checked={category == "Brand C" ? true : false}
         />{" "}
@@ -129,7 +121,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Miracle"}
-          name="Miracle"
           onChange={handleFilterCategory}
           checked={category == "Miracle" ? true : false}
         />{" "}
@@ -138,7 +129,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"Empty"}
-          name="Empty"
           onChange={handleFilterCategory}
           checked={category == "Empty" ? true : false}
         />{" "}
@@ -152,7 +142,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"under100"}
-          name="under100"
           onChange={handleFilterPrice}
           checked={price == "under100" ? true : false}
         />{" "}
@@ -161,7 +150,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"100to199"}
-          name="100to199"
           onChange={handleFilterPrice}
           checked={price == "100to199" ? true : false}
         />{" "}
@@ -170,7 +158,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"200to599"}
-          name="200to599"
           onChange={handleFilterPrice}
           checked={price == "200to599" ? true : false}
         />{" "}
@@ -179,7 +166,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"600to999"}
-          name="600to999"
           onChange={handleFilterPrice}
           checked={price == "600to999" ? true : false}
         />{" "}
@@ -188,7 +174,6 @@ function SidePart() {
         <input
           type="checkbox"
           value={"above1000"}
-          name="above1000"
           onChange={handleFilterPrice}
           checked={price == "above1000" ? true : false}
         />{" "}

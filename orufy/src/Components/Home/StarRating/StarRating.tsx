@@ -1,7 +1,6 @@
 import React from "react";
 
 function StarRating({ rating }: { rating: number }) {
-      
   const ratingStar = Array.from({ length: 5 }, (elem, index) => {
     let number = index + 0.5;
     return (
@@ -13,7 +12,7 @@ function StarRating({ rating }: { rating: number }) {
             width={20}
           />
         ) : rating >= number ? (
-      //     AiFillStar 
+          //     AiFillStar
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/star-2694318-2236314.png?f=avif&w=128"
             alt=""
