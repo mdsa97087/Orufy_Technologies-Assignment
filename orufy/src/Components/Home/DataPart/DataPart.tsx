@@ -28,6 +28,8 @@ function DataPart() {
   const search = useSelector((state: any) => state.search);
   const sort = useSelector((state: any) => state.sort);
   const brand = useSelector((state: any) => state.brand);
+  const category = useSelector((state: any) => state.category);
+  const price = useSelector((state: any) => state.price);
 
   useEffect(() => {
     dispatch(getDataReducer());
@@ -37,12 +39,6 @@ function DataPart() {
   //   const selectedSort = e.target.value;
   //   dispatch(sortProducts(selectedSort));
   // };
-
-  // const handleFilterChange = (e) => {
-  //   const selectedFilter = e.target.value;
-  //   dispatch(filterProducts(selectedFilter));
-  // };
-
 
   //  ``````````````````` SORTING AND FILTERING     ``````````
 
@@ -60,38 +56,54 @@ function DataPart() {
   const filteredProducts = sortedProducts.filter((product) => {
     if (brand === "Number A") {
       return product.brand === "Number A";
-    } else if (brand === "Brand 2") {
+    }
+    if (brand === "Brand 2") {
       return product.brand === "Brand 2";
-    } else if (brand === "Brand C") {
+    }
+    if (brand === "Brand C") {
       return product.brand === "Brand C";
-    } else if (brand === "Miracle") {
+    }
+    if (brand === "Miracle") {
       return product.brand === "Miracle";
     }
-    else if (brand === "Empty") {
-      return  sortedProducts;
+    if (brand === "Empty") {
+      return sortedProducts;
     }
-    else {
-      return sortedProducts
+    //      ``````````````  category `      ````````
+
+    if (category === "Number A") {
+      return product.category === "Number A";
+    }
+    if (category === "Brand 2") {
+      return product.category === "Brand 2";
+    }
+    if (category === "Brand C") {
+      return product.category === "Brand C";
+    }
+    if (category === "Miracle") {
+      return product.category === "Miracle";
+    }
+    if (category === "Empty") {
+      return sortedProducts;
+    }
+    // `````````````    price    ``````````
+    else if (price === "under100") {
+      return product.strike_price < 100;
+    } else if (price === "100to199") {
+      return product.strike_price >= 100 && product.strike_price <= 199;
+    } else if (price === "200to599") {
+      return product.strike_price >= 200 && product.strike_price <= 599;
+    } else if (price === "600to999") {
+      return product.strike_price >= 600 && product.strike_price <= 999;
+    } else if (price === "above1000") {
+      return product.strike_price > 1000;
+    } else {
+      return sortedProducts;
     }
   });
 
   return (
     <div className="DataPartDiv">
-      {/* <input
-        type="checkbox"
-        value={"Number A"}
-        name="Number A"
-        onChange={(e) => dispatch(filterBrand(e.target.value))}
-        checked={brand == "Number A" ? true : false}
-      />{" "} */}
-      {/* <span>Number A</span> */}
-      {/* <input
-        type="checkbox"
-        value={"Brand 2"}
-         onChange={(e) => dispatch(filterBrand(e.target.value))} 
-        checked={brand === "Brand 2" ? true : false} 
-      />{" "}
-      <span>Brand 2</span> */}
       <div>
         <span
           style={{

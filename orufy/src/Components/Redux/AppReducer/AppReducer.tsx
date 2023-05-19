@@ -1,13 +1,14 @@
 import { FILTER_BY_SEARCH } from "./AppActionType";
 
-
 const initState = {
   data: [],
   search: "",
   isLoading: false,
   isError: false,
-  sort: 'default',
+  sort: "default",
   brand: "",
+  category: "",
+  price: "",
 };
 
 const AppReducer = (state = initState, action: any) => {
@@ -44,23 +45,30 @@ const AppReducer = (state = initState, action: any) => {
 
     //          ```````````  SORT ACCORDING TO PRICE   ````````````
 
-    case 'SORT_BY_PRICE':
+    case "SORT_BY_PRICE":
       return {
         ...state,
         sort: action.payload,
       };
 
+    //          ```````````  FILTER BY BRAND  AND CATEGORY   ```````````
 
+    case "FILTER_BRAND":
+      return {
+        ...state,
+        brand: action.payload,
+      };
 
-      //    ``````````````    SORTING AND FILTERING   ```````
-
-    
-        case 'FILTER_BRAND':
-        return {
-          ...state,
-          brand: action.payload,
-        };
-
+    case "FILTER_CATEGORY":
+      return {
+        ...state,
+        category: action.payload,
+      };
+    case "FILTER_PRICE":
+      return {
+        ...state,
+        price: action.payload,
+      };
 
     default: {
       return state;

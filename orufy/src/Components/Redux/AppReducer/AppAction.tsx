@@ -50,7 +50,7 @@ export const sortProducts = (sort: any) => {
   };
 };
 
-//          ```````````  FILTER BY PRICE ACCORDING TO RANGE   ```````````
+//          ```````````  FILTER BY BRAND  AND CATEGORY   ```````````
 
 export const filterBrand:any = (brand: any) => {
   return {
@@ -58,3 +58,17 @@ export const filterBrand:any = (brand: any) => {
     payload: brand,
   };
 };
+
+export const filtercategory:any = (category: any) => {
+      return {
+        type: "FILTER_CATEGORY",
+        payload: category,
+      };
+    };
+
+    export const filterPrice:any = (price: any) => {
+      return {
+        type: "FILTER_PRICE",
+        payload: price,
+      };
+    };
