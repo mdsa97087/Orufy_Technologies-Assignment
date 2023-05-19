@@ -1,7 +1,13 @@
 import React from "react";
 import "./SidePart.css";
+import { useDispatch, useSelector } from "react-redux";
+import { filterBrand } from "../../Redux/AppReducer/AppAction";
 
 function SidePart() {
+  const dispatch = useDispatch();
+  const data = useSelector((state: any) => state.data);
+  const brand = useSelector((state: any) => state.brand);
+
   return (
     <div className="sidePartDiv">
       <div
@@ -19,18 +25,54 @@ function SidePart() {
           alt=""
         />
       </div>
-      <hr /><br />
+      <hr />
+      <br />
       <div>
         <p className="sidePartPtag">Brand</p>
-        <input type="checkbox" /> <span>Number A</span>
+        <input
+          type="checkbox"
+          value={"Number A"}
+          name="Number A"
+          onChange={(e) => dispatch(filterBrand(e.target.value))}
+          checked={brand == "Number A" ? true : false}
+        />{" "}
+        <span>Number A</span>
         <br />
-        <input type="checkbox" /> <span>Brand 2</span>
+        <input
+          type="checkbox"
+          value={"Brand 2"}
+          name="Brand 2"
+          onChange={(e) => dispatch(filterBrand(e.target.value))}
+          checked={brand == "Brand 2" ? true : false}
+        />{" "}
+        <span>Brand 2</span>
         <br />
-        <input type="checkbox" /> <span>Brand C</span>
+        <input
+          type="checkbox"
+          value={"Brand C"}
+          name="Brand C"
+          onChange={(e) => dispatch(filterBrand(e.target.value))}
+          checked={brand == "Brand C" ? true : false}
+        />{" "}
+        <span>Brand C</span>
         <br />
-        <input type="checkbox" /> <span>Miracle</span>
+        <input
+          type="checkbox"
+          value={"Miracle"}
+          name="Miracle"
+          onChange={(e) => dispatch(filterBrand(e.target.value))}
+          checked={brand == "Miracle" ? true : false}
+        />{" "}
+        <span>Miracle</span>
         <br />
-        <input type="checkbox" /> <span>Empty</span>
+        <input
+          type="checkbox"
+          value={"Empty"}
+          name="Empty"
+          onChange={(e) => dispatch(filterBrand(e.target.value))}
+          checked={brand == "Empty" ? true : false}
+        />{" "}
+        <span>Empty</span>
       </div>
       <br />
       <div>
